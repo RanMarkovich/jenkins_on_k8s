@@ -9,6 +9,8 @@ prerequisites:
 steps:
 * `helm repo add jenkins https://charts.jenkins.io`
 * `helm repo update`
+* make sure chart exists:
+  * `helm search repo jenkins`
 * create jenkins namespace:
   * create a jenkins-namespace.yaml file:
 ```yaml
